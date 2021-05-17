@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 public class Post {
     private int id;
-    private boolean authorsName;
+    private String authorsName;
     private int likes;
     private int repost;
     private int views;
@@ -22,10 +22,10 @@ public class Post {
     private int friendsOnly;
     private String postType;
     private int signerId;
-    private int canPin;
-    private int canDelete;
-    private int canEdit;
-    private int isPinned;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
+    private boolean isPinned;
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
@@ -38,10 +38,6 @@ public class Post {
     private Donut donut;
     private Geo geo;
     private PostSource postSource;
-    private Object object;
-
-
-
 
 
     // + get/set на все поля

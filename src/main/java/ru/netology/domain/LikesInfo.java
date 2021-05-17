@@ -6,9 +6,5 @@ public class LikesInfo {
     private boolean thereIsLike;
     private boolean whoLike;
 
-    private LikesСondition [] type;
-    private boolean LikeRed;
-    private boolean NotLikeWhite;
-
     // + get/set на все поля
 }
